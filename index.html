@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style/style.css" rel="stylesheet">
     <title>Limogroup</title>
+    <link rel="preload" href="./fonts/RedHatDisplay.ttf" as="font">
 </head>
 <body>
     <header>
         <div class="Top-Line">
-            <img class="Top-Line__logo" src="./assets/img/logo.png" alt="Limogroup">
+            <img class="Top-Line__Logo" src="./assets/img/logo.png" alt="Limogroup">
             <div class="Top-Line__NavBar">
                 <a href="./index.html" class="Top-Line__Button">Home</a>
                 <a href="./index.html" class="Top-Line__Button">About Us</a>
@@ -18,13 +18,44 @@
                 <a href="./index.html" class="Top-Line__Button">Fleets</a>
             </div>
             <div class="Top-Line__PhoneNumber">+41 79 896 96 96</div>
-            <img class="Top-Line__LangSwitch" src="./assets/img/Union.png" alt="ENG">
-            <a class="Top-Line__ContactUs" href="./index.html">Contact Us</a>
+            <div class="Top-Line__LangSwitch">
+                <img  src="./assets/img/Union.png" alt="ENG">
+            </div>
+            <a href="./index.html" class="Top-Line__ContactUs">Contact Us</a>
         </div>
         <div class="Main">
+            <img src="./assets/img/MersBenzS.png" alt="MersBenzS" class="Main__Image">
             <p class="Main__Title">One global<br>solution</p>
             <p class="Main__Text">Offering the Best Limo Service in Switzerland, Experience it Now!</p>
-            <div class="Main__Button">Booking</div>
+            <a href="./index.html" ><div class="Main__Button">Booking</div></a>
+        </div>
+        <div class="BookingBlock">
+            <div class="BookingBlock__Type">
+                <a href="./index.html" class="BookingBlock__Type-Button">Distance</a>
+                <a href="./index.html" class="BookingBlock__Type-Button">Hourly</a>
+            </div>
+            <div class="BookingBlock__InputBox">
+                <div class="BookingBlock__AddressStart">
+                    <div class="BookingBlock__InputName">Pick Up Address</div>
+                    <input type="text" class="BookingBlock__InputLine" placeholder="From: address, airport, hotel, ...">
+                </div>
+                <div class="BookingBlock__HR"></div>
+                <div class="BookingBlock__AddressEnd">
+                    <div class="BookingBlock__InputName">Drop Off Address</div>
+                    <input type="text" class="BookingBlock__InputLine" placeholder="From: address, airport, hotel, ...">
+                </div>
+                <div class="BookingBlock__HR"></div>
+                <div class="BookingBlock__DateUp">
+                    <div class="BookingBlock__InputName">Pick Up Date</div>
+                    <input type="text" class="BookingBlock__InputDate" placeholder="WEB 19, 2018">
+                </div>
+                <div class="BookingBlock__HR"></div>
+                <div class="BookingBlock__TimeUp">
+                    <div class="BookingBlock__InputName">Pick Up Time</div>
+                    <input type="text" class="BookingBlock__InputDate" placeholder="12:25 am">
+                </div>
+                <a class="BookingBlock__Search">Search</a>
+            </div>
         </div>
     </header>
 </body>

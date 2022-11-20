@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Square');
+@font-face {
+	font-family: 'Red Hat Display'; 
+	src: url(/fonts/RedHatDisplay.ttf); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::-webkit-scrollbar {
+    width: 0px;
+  }
+body {
+    background-color: #1B1B1B;
+    font-family: 'Red Hat Display';
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 89.4%;
+    margin-top: 2.45%;
+    margin-left: 5.05%;
+    margin-right: 5.05%;
+}
+.Top-Line {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.Top-Line__Logo {
+    position: absolute;
+    width: 231px;
+    height: 29px;
+    top: 61px;
+    left: 97.01px;
+}
+.Top-Line__NavBar {
+    width: 455px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #B6B6B6;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Top-Line__NavBar {
+    width: 454px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #B6B6B6;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 10.4%;
+    margin-top: 10px;
+}
+.Top-Line__Button {
+    cursor: pointer;
+    text-decoration: none;
+    color: #B6B6B6;
+}
+.Top-Line__Button:nth-child(1) {
+    font-weight: 300;
+    color: #fff;
+}
+.Top-Line__PhoneNumber {
+    margin-top: 11px;
+    width: 147px;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 1.7%;
+    letter-spacing: 1.2px;
+}
+.Top-Line__LangSwitch {
+    margin-top: 13px;
+    width: 48.91px;
+    height: 11.55px;
+    margin-right: 1.65%;
+}
+.Top-Line__ContactUs {
+    width: 169px;
+    height: 47px;
+    border-radius: 9px;
+    color: #000;
+    font-size: 18px;
+    background-color: #EEEEEE;
+    box-shadow: 0px 15px 50px rgba(255, 255, 255, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.Main {
+    margin-top: 45.5px;
+    width: auto;
+    height: 707px;
+    background-color: #FFFFFF;
+    border-radius: 41px;
+    padding-left: 149px;
+    padding-top: 66px;
+    z-index: 0;
+    overflow: hidden;
+}
+.Main__Title {
+    font-size: 110px;
+    font-family: 'Nova Square';
+    line-height: 111%;
+}
+.Main__Text {
+    width: 368px;
+    height: 66px;
+    margin-top: 32px;
+    margin-left: 12px;
+    font-size: 25px;
+}
+.Main__Button {
+    width: 185.1px;
+    height: 54px;
+    border-radius: 9px;
+    color: #EEE;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    background-color: #000;
+    padding: 16px 0px 0px 61px;
+    text-decoration: none;
+    margin-top: 3.4%;
+    margin-left: 12px;
+}
+.Main a {
+    text-decoration: none;
+}
+.Main__Image {
+    position: absolute;
+    left: 34.75%;
+    top: 177px;
+    z-index: -1;
+}
+.BookingBlock {
+    width: 1399px;
+    margin: auto;
+    margin-top: -117px;
+    z-index: 2;
+    
+}
+.BookingBlock__Type {
+    width: 375.26px;
+    height: 74px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 11px 11px 0px 0px;
+    overflow: hidden;
+}
+.BookingBlock__Type-Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187.63px;
+    height: 74px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #222;
+}
+.BookingBlock__Type-Button:nth-child(2) {
+    background-color: #484848;
+}
+.BookingBlock__InputBox {
+    width: 1400px;
+    height: 102px;
+    border-radius: 0px 11px 11px 11px;
+    background-color: #484848;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.BookingBlock__InputName {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 7px;
+    font-weight: 300;
+}
+.BookingBlock__InputLine {
+    color: #fff;
+    width: 288.18px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 18.6px;
+    margin-left: -1px;
+}
+.BookingBlock__InputLine::placeholder {
+    color: #fff;
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 18.6px;
+}
+.BookingBlock__AddressStart {
+    padding-right: 23px;
+}
+.BookingBlock__HR {
+    margin-top: -4px;
+    width: 2px;
+    height: 65px;
+    background-color: #fff;
+}
+.BookingBlock__AddressEnd {
+    padding-left: 59px;
+    padding-right: 23px;
+}
+.BookingBlock__DateUp {
+    padding-left: 45px;
+    padding-right: 23px;
+}
+.BookingBlock__InputDate {
+    color: #fff;
+    width: 150px;
+    background-color: transparent;
+    border: 0px;
+    font-size: 18.6px;
+    margin-left: -1px;
+}
+.BookingBlock__InputDate::placeholder {
+    color: #fff;
+    background-color: transparent;
+    border: 0px;
+    font-family: 'Red Hat Display';
+    font-weight: 400;
+    font-size: 18.6px;
+}
+.BookingBlock__TimeUp {
+    margin-left: 53px;
+    margin-right: 53px;
+}
+.BookingBlock__Search {
+    padding-left: 63.3px;
+    padding-top: 28px;
+    background-color: #fff;
+    border-radius: 7px;
+    width: 193px;
+    height: 82px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 0px 20px 50px rgba(255, 255, 255, 0.25);
+    letter-spacing: 0.2px;
+}
